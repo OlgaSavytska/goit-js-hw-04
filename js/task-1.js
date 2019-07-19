@@ -11,7 +11,7 @@ const account = {
     },
     addOrder(cost, order) {
       this.balance -= cost;
-      orders.push(order);
+      this.orders.push(order);
     },
   };
   
